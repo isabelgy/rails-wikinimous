@@ -1,0 +1,5 @@
+<div class="list-group">
+<% @articles.each do |a|%>
+  <%= link_to a.title, article_path(a), class: "list-group-item"%>
+<% end %>
+</div>
